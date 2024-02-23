@@ -5,12 +5,15 @@
 <%@ include file="fragments/head.jsp" %>
 <body>
 <%@ include file="fragments/navbar.jsp" %>
-<li><form action="/logout" method="POST"><input type="submit" name="logout" value="LOGOUT"></form></li>
+<a href="/logout" class="logout-link">
+    <form action="/logout" method="POST">
+        <input type="submit" name="logout" value="LOGOUT" class="logout-button">
+    </form>
+</a>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Page</title>
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/CSS/style.css">
 </head>
 <body>
 
@@ -37,12 +40,12 @@
                         <td>${course[1]}</td>
                         <td>${course[2]}</td>
                         <td>${course[3]}</td>
-                        <td>${course[4]}</td>
                     </tr>
                 </c:forEach>
             </tbody>
         </table>
         <table class="data">
+        <h3>Dina Klasskamrater/Lärare:</h3>
             <thead>
                 <tr>
                     <th>KursName  </th>

@@ -1,8 +1,6 @@
-<footer>
-<nav>
+<header>
+<link rel="stylesheet" type="text/css" href="/CSS/styles.css">
 
-
-</nav>
-<banner>
-</banner>
-</footer>
+<title>GritAcademyPortal</title>
+        <h1>GritAcademyPortal</h1>
+</header>

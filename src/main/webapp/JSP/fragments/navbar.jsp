@@ -1,7 +1,4 @@
 <navbar id="mainNavbar">
-    <banner>
-    </banner>
-
     <nav>
         <div class="navlinks">
             <ul>

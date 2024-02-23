@@ -5,7 +5,6 @@
  <%@ include file="fragments/head.jsp" %>
  <body>
  <%@ include file="fragments/navbar.jsp" %>
- <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/CSS/style.css">
  <%@ include file="fragments/misc/dataTable.jsp" %>
  <%@ include file="fragments/footer.jsp" %>
 
