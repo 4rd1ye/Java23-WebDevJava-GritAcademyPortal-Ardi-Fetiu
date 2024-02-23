@@ -1,0 +1,10 @@
+servlet/LogoutServlet.class
+servlet/IndexServlet.class
+model/STATE_TYPE.class
+model/PRIVILAGE_TYPE.class
+model/USER_TYPE.class
+model/UserBean.class
+servlet/CoursesServlet.class
+model/MySQLConnector.class
+servlet/UserPageServlet.class
+servlet/LoginServlet.class
